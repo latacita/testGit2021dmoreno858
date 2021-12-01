@@ -14,7 +14,7 @@
 07	commit -m "Paso 7"
 08	checkout Lola
 10	add
-11	commit
+11	commit -m "Paso 11"
 13	stash 
 	checkout master
 14	------			En este caso la fusión sería por
@@ -28,4 +28,10 @@
 21	commit -m "Paso 21"
 22	checkout Lola
 23	stash apply
+24	------			Fusión recursiva con conflictos en 
+				"bitacora.txt"
+25	add
+26	commit -m "Paso 26"
+27	checkout master
+28	merge Lola
 
