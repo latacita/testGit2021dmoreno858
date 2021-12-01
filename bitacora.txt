@@ -6,3 +6,16 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+
+
+
+
+
+
+
+13	stash 
+	checkout master
+14	------			En este caso la fusión sería por
+				Fast-Forward	
+
+
