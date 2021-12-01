@@ -21,5 +21,10 @@
 	checkout master
 14	------			En este caso la fusión sería por
 				Fast-Forward
+16	add
+17	commit -m "Paso 17"
+18	merge Paco		Fusión recursiva con conflictos en 
+				"bitacora.txt"
+19	-------	
 
 
